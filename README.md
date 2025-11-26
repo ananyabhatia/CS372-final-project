@@ -1,4 +1,5 @@
-# 
+# CS372 Final Project: Food to Recipe
+## Ananya Bhatia
 
 ## What It Does
 - One-paragraph description of the project.
