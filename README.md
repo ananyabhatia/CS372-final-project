@@ -17,6 +17,7 @@ See docs/EXAMPLES.md for many examples. Below I will present just one example fr
 ### Comparison of Baseline to ResNet: American Burger
 
 **Input Image:**
+
 ![Dish Image](/docs/result_images/val_45.png)
 
 ### Baseline
