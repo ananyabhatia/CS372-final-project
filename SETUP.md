@@ -23,7 +23,7 @@ Choose the environment you just created.
 Run any cells you want to run!
 
 ### Recommended things to try
-You can quickly run inference by going to notebooks/Inference.ipynb and running all the cells (assuming you have the weights in the models folder) Cells 7 and 9 are the cells that actually run inference. Cell 7 uses the fine tuned ResNet and cell 9 uses the baseline CNN model. Line 2 of both cell 7 and cell 9 can be changed to try different images of food from the test set. Simply change the number in the square brackets.
+You can quickly run inference by going to notebooks/Inference.ipynb and running all the cells (assuming you have the weights in the models folder, which you can download from the Duke Box link in the models folder under WEIGHTS.md) Cells 7 and 9 are the cells that actually run inference. Cell 7 uses the fine tuned ResNet and cell 9 uses the baseline CNN model. Line 2 of both cell 7 and cell 9 can be changed to try different images of food from the test set. Simply change the number in the square brackets.
 If you want to create your own model weights you should go to notebooks/FullPipeline.ipynb. You can see multiple cells for training of the models if you would like to do hyperparameter tuning, and you can test on the validation set in the last cell in this file. 
 
 
