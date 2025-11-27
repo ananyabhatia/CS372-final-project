@@ -3,7 +3,8 @@
 ### Result 1 - Loaded Sweet Potato Skins
 
 **Input Image:**
-![Dish Image](/CS372-final-project/docs/result_images/val_9.png)
+
+![Dish Image](/docs/result_images/val_9.png)
 
 **CNN Output (Ingredients):** ['salt', 'garlic', 'butter', 'water', 'sugar', 'onion', 'vegetable oil', 'tomatoes', 'bell pepper', 'sour cream', 'chili pepper', 'scallions', 'paprika', 'gouda cheese', 'sweet potato', 'seasoning', 'texmex seasoning', 'black beans', 'red chili pepper', 'smoked paprika']
 
@@ -14,20 +15,21 @@ Ingredients: salt, garlic, butter, water, sugar, onion, vegetable oil, tomatoes,
 Write a detailed recipe with 5–8 steps.
 
 Answer: 1. Preheat oven to 400°F (200°C).
-2. Cut sweet potatoes into thin slices.
-3. In a small bowl, mix together salt, garlic, and butter.
-4. Lay the sweet potato slices on a baking sheet and sprinkle with salt, garlic butter, and water.
-5. Bake for 25-30 minutes or until the sweet potatoes are tender.
-6. In a separate pan, heat up oil and add diced onions, bell pepper, and tomatoes.
-7. Cook until the vegetables are soft and add chilis and chili powder for additional spice.
-8. In a blender, mix together sweet potato, seasoning, texmex seasoning, black beans, red chili pepper, and smoked paprika.
-9. Add the blended mixture to the pan with the vegetables and mix well.
-10. Top with scallions and shredded gouda cheese.
-11. Enjoy your delicious Loaded Sweet Potato Skins!
+1. Cut sweet potatoes into thin slices.
+2. In a small bowl, mix together salt, garlic, and butter.
+3. Lay the sweet potato slices on a baking sheet and sprinkle with salt, garlic butter, and water.
+4. Bake for 25-30 minutes or until the sweet potatoes are tender.
+5. In a separate pan, heat up oil and add diced onions, bell pepper, and tomatoes.
+6. Cook until the vegetables are soft and add chilis and chili powder for additional spice.
+7. In a blender, mix together sweet potato, seasoning, texmex seasoning, black beans, red chili pepper, and smoked paprika.
+8. Add the blended mixture to the pan with the vegetables and mix well.
+9.  Top with scallions and shredded gouda cheese.
+10. Enjoy your delicious Loaded Sweet Potato Skins!
 
 ### Result 2 - Crispy Chicken
 **Input Image:**
-![Dish Image](/CS372-final-project/docs/result_images/val_20.png)
+
+![Dish Image](/docs/result_images/val_20.png)
 
 **CNN Output (Ingredients):** ['salt', 'chicken breast', 'vegetable oil', 'egg', 'bread crumbs', 'panko bread crumbs']
 
@@ -52,7 +54,8 @@ Answer:
 
 ### Result 3 - Buddha Bowl
 **Input Image:**
-![Dish Image](/CS372-final-project/docs/result_images/val_40.png)
+
+![Dish Image](/docs/result_images/val_40.png)
 
 **CNN Output (Ingredients):** ['salt', 'olive oil', 'jasmine rice']
 
@@ -74,7 +77,8 @@ Solution:
 
 ### Result 4 - Tandoori Shrimp
 **Input Image:**
-![Dish Image](/CS372-final-project/docs/result_images/val_80.png)
+
+![Dish Image](/result_images/val_80.png)
 
 **CNN Output (Ingredients):** ['salt', 'garlic', 'butter', 'sugar', 'black pepper', 'chili flakes', 'cucumber', 'rice', 'jasmine rice', 'shrimp', 'yogurt', 'red onion', 'mint', 'mango', 'coconut', 'lime juice', 'tikka masala']
 
@@ -97,7 +101,8 @@ Step 8: Serve hot with tikka masala on the side.
 
 ### Result 5 - Brazilian Prawn and Coconut Stew
 **Input Image:**
-![Dish Image](/CS372-final-project/docs/result_images/val_110.png)
+
+![Dish Image](/docs/result_images/val_110.png)
 
 **CNN Output (Ingredients):** ['salt', 'olive oil', 'butter', 'water', 'lime', 'tomatoes', 'cilantro', 'peanuts', 'shrimp', 'coconut milk', 'red onion', 'corn', 'basmati rice', 'lime juice']
 
@@ -121,7 +126,8 @@ Step 9: Serve the fried rice topped with peanuts and lime wedges.
 ## Comparison of Baseline to ResNet: American Burger
 
 **Input Image:**
-![Dish Image](/CS372-final-project/docs/result_images/val_45.png)
+
+![Dish Image](/docs/result_images/val_45.png)
 
 ### Baseline
 **CNN Output (Ingredients):** ['olive oil', 'mayonnaise', 'egg', 'parsley', 'beef', 'tomato', 'black pepper', 'potatoes', 'cream', 'wheat flour', 'shrimp', 'sour cream', 'oil', 'salmon', 'red onion', 'milk', 'mustard', 'avocado', 'mushrooms', 'bacon', 'pollock', 'gouda cheese', 'balsamic vinegar', 'honey', 'corn', 'shallots', 'apple', 'panko breadcrumbs', 'lettuce', 'broccoli', 'sweet potato', 'lentils', 'rosemary', 'pepper', 'bread', 'potato', 'texmex seasoning', 'sauce', 'tarragon', 'brioche bun', 'beef broth', 'cumin', 'baguette', 'coconut', 'tortilla chips', 'lemon juice', 'chili peppers', 'kale', 'red chili pepper', 'worcestershire sauce', 'red cabbage', 'red wine sauce', 'smoked paprika', 'barbecue sauce', 'jalapeno pepper', 'egg yolk', 'duck breast', 'sunflower oil', 'duck leg', 'mushroom']
