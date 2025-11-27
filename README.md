@@ -8,8 +8,10 @@ My project is a food image to recipe converter that takes in an image of a food,
 To run the project, create a Python environment and download all dependencies that are outlined in requirements.txt. After that, you can quickly run the project (assuming you have the model weights in the models folder) by going to notebooks/Inference.ipynb and running all the cells. Cells 7 and 9 are the cells that actually run inference. Cell 7 uses the fine tuned ResNet and cell 9 uses the baseline CNN model. Line 2 of both cell 7 and cell 9 can be changed to try different images of food from the test set. Simply change the number in the square brackets. See SETUP.md for a more comprehensive guide. 
 
 ## Video Links
-- Demo Video Link
-- Technical Walkthrough Link
+Demo Video Link: https://duke.zoom.us/rec/share/PM82KsR73qMngyuZXL0fic4-wNhU8DwDTPUP7dQNMG358c-_MmUpApHxnQOqkRfB.QT8W7Xnk4hV8zKom?startTime=1764281285000
+Technical Walkthrough Link: https://duke.zoom.us/rec/share/PM82KsR73qMngyuZXL0fic4-wNhU8DwDTPUP7dQNMG358c-_MmUpApHxnQOqkRfB.QT8W7Xnk4hV8zKom?startTime=1764282299000
+
+You can find the self assessment under docs/ASSESSMENT.md which walks through where each of my rubric items is applied. 
 
 ## Evaluation
 See docs/EXAMPLES.md for many examples. Below I will present just one example from testing comparing the baseline model to the fine tuned ResNet, both using the same LLM afterwards. 

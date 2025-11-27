@@ -51,8 +51,8 @@
 **README.md has Individual Contributions section for group projects that describes who did what:** See README.md.
 
 ### Video Submissions (2 points each)
-Demo video is of the correct length and appropriate for non-specialist audience with no code shown
-Technical walkthrough is of the correct length and clearly explains code structure, ML techniques, and key contributions
+**Demo video is of the correct length and appropriate for non-specialist audience with no code shown:** See demo video.
+**Technical walkthrough is of the correct length and clearly explains code structure, ML techniques, and key contributions:** See technical walkthrough video.
 
 ### Project Workshop Days (1 points each)
 **Attended 1-2 project workshop days:** See attendance.

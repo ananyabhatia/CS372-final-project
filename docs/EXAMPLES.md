@@ -26,6 +26,8 @@ Answer: 1. Preheat oven to 400°F (200°C).
 9.  Top with scallions and shredded gouda cheese.
 10. Enjoy your delicious Loaded Sweet Potato Skins!
 
+This recipe seems realistic to me, it seems like all the seasonings are plausible and I am happy that the ResNet model got sour cream as one of the ingredients. I don't see black beans in the image but it is definitely in theme with the dish to have black beans so I am honestly not mad about that. I do think it is interesting that the LLM suggests to blend the black beans with the sweet potato -- not something I would've personally done but still realistic. 
+
 ### Result 2 - Crispy Chicken
 **Input Image:**
 
@@ -52,6 +54,8 @@ Answer:
 9. Bake the chicken in the oven for 20–25 minutes, or until it is golden brown and cooked through.
 10. Once done, remove the chicken from the oven and let it rest for a few minutes before serving.
 
+I think that this recipe is pretty spot on. Crispy chick is relatively simple and the LLM is able to give a super realistic recipe for dredging the chicken in flour, then eggs, then breadcrumbs which is a super classic cooking technique and I was really happy that the LLM was able to predict that. 
+
 ### Result 3 - Buddha Bowl
 **Input Image:**
 
@@ -74,6 +78,8 @@ Solution:
 6. Add some salt and your choice of seasoning to the pan, and stir-fry the rice for about 3–5 minutes until it is slightly browned.
 7. Add your choice of protein, vegetables, and sauce to the pan, and stir-fry for 2–3 minutes.
 8. Serve the Buddha Bowl in a bowl, and top it with some fresh herbs for garnish.
+
+This is an interesting example of the model not doing very well. It could only pinpoint three ingredients of salt, olive oil, and jasmine rice. However, you can see that the LLM caught onto that and in step 7 suggests to add your choice of protein and vegetables. 
 
 ### Result 4 - Tandoori Shrimp
 **Input Image:**
@@ -99,6 +105,8 @@ Step 6: Pour the mixture over the shrimp and rice.
 Step 7: Cook for a few more minutes until the rice is heated through.
 Step 8: Serve hot with tikka masala on the side.
 
+I think that the recipe for this was also relatively realistic and the ingredients that it uses is relatively spot on to what it seems like is in this dish. One interesting note is that this thinks in step 2 that we should be cooking cucumber which is probably not great and it probably should just be served raw. 
+
 ### Result 5 - Brazilian Prawn and Coconut Stew
 **Input Image:**
 
@@ -122,6 +130,8 @@ Step 6: In the same skillet, add the red onion, corn, and basmati rice. Cook for
 Step 7: Add the coconut milk, lime juice, and cilantro to the skillet and stir well.
 Step 8: Return the shrimp to the skillet and stir everything together until well combined.
 Step 9: Serve the fried rice topped with peanuts and lime wedges.
+
+I thought that the model did pretty well with this image and got a decent amount of ingredients out of the dish and also gives a relatively normal looking recipe for it. 
 
 ## Comparison of Baseline to ResNet: American Burger
 
@@ -165,3 +175,5 @@ Answer:
 6. Preheat your grill to medium-high heat. Place the patty on the grill and cook for about 5-7 minutes, flipping once, until it is cooked through.
 7. Remove the patty from the grill and let it rest for a few minutes.
 8. Place the brioche bun down and add the patty, onion, and tomato mixture. Top with a dollop of sour cream and enjoy your delicious dish!
+
+From this test, we can see the impact of the fine tuned ResNet over the small CNN trained from scratch. The small CNN predicted many ingredients that are clearly not part of this dish and the recipe is much longer because of all the extra ingredients. The ResNet actually predicted a decent number of ingredients and it could definitely be realistic for a recipe. We can definitely still see some mistake, like how the last step says to top with a dollop of sour cream but that is not an ingredient that is even listed, but overall it seems decently realistic.  
