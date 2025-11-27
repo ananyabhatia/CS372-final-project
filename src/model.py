@@ -2,6 +2,8 @@ import torch
 import torch.nn as nn
 from torchvision.models import resnet50, ResNet50_Weights
 
+# The majority of the code in this file was AI Generated: ChatGPT-5, 11/25/25
+
 class TinyCNN(nn.Module):
     def __init__(self, num_classes):
         super().__init__()
@@ -30,3 +32,4 @@ def build_resnet_model(num_classes):
     model.fc = nn.Linear(num_features, num_classes)
 
     return model
+

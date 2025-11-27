@@ -3,6 +3,8 @@ import torch
 import torch.nn as nn
 from pathlib import Path
 
+# The majority of the code in this file was AI Generated: ChatGPT-5, 11/25/25
+
 def compute_pos_weights(df_train):
     pos_weight = torch.stack(df_train["label_vec"].tolist()).sum(dim=0)
     neg_weight = len(df_train) - pos_weight

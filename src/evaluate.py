@@ -1,6 +1,8 @@
 from sklearn.metrics import f1_score
 import torch 
 
+# The majority of the code in this file was AI Generated: ChatGPT-5, 11/25/25
+
 def evaluate(model, loader, device, threshold=0.5):
     model.eval()
     preds, trues = [], []

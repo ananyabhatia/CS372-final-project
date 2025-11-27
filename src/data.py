@@ -8,6 +8,9 @@ from collections import Counter
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms 
 
+# The majority of the code in this file was AI Generated: ChatGPT-5, 11/25/25
+
+
 def load_hf_dataset():
     return load_dataset("cemoss17/hellofresh_image_ingredients")
 
