@@ -17,7 +17,7 @@ See docs/EXAMPLES.md for many examples. Below I will present just one example fr
 ### Comparison of Baseline to ResNet: American Burger
 
 **Input Image:**
-![Dish Image](/CS372-final-project/docs/result_images/val_45.png)
+![Dish Image](/docs/result_images/val_45.png)
 
 ### Baseline
 **CNN Output (Ingredients):** ['olive oil', 'mayonnaise', 'egg', 'parsley', 'beef', 'tomato', 'black pepper', 'potatoes', 'cream', 'wheat flour', 'shrimp', 'sour cream', 'oil', 'salmon', 'red onion', 'milk', 'mustard', 'avocado', 'mushrooms', 'bacon', 'pollock', 'gouda cheese', 'balsamic vinegar', 'honey', 'corn', 'shallots', 'apple', 'panko breadcrumbs', 'lettuce', 'broccoli', 'sweet potato', 'lentils', 'rosemary', 'pepper', 'bread', 'potato', 'texmex seasoning', 'sauce', 'tarragon', 'brioche bun', 'beef broth', 'cumin', 'baguette', 'coconut', 'tortilla chips', 'lemon juice', 'chili peppers', 'kale', 'red chili pepper', 'worcestershire sauce', 'red cabbage', 'red wine sauce', 'smoked paprika', 'barbecue sauce', 'jalapeno pepper', 'egg yolk', 'duck breast', 'sunflower oil', 'duck leg', 'mushroom']
