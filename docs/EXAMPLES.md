@@ -84,7 +84,7 @@ This is an interesting example of the model not doing very well. It could only p
 ### Result 4 - Tandoori Shrimp
 **Input Image:**
 
-![Dish Image](/result_images/val_80.png)
+![Dish Image](/docs/result_images/val_80.png)
 
 **CNN Output (Ingredients):** ['salt', 'garlic', 'butter', 'sugar', 'black pepper', 'chili flakes', 'cucumber', 'rice', 'jasmine rice', 'shrimp', 'yogurt', 'red onion', 'mint', 'mango', 'coconut', 'lime juice', 'tikka masala']
 
